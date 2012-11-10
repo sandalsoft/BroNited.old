@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DFDAF9164EC4EF004FB9CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAF8164EC4EF004FB9CC /* UIKit.framework */; };
+		07DFDAFB164EC4EF004FB9CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFA164EC4EF004FB9CC /* Foundation.framework */; };
+		07DFDAFD164EC4EF004FB9CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFC164EC4EF004FB9CC /* CoreGraphics.framework */; };
+		07DFDB03164EC4EF004FB9CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB01164EC4EF004FB9CC /* InfoPlist.strings */; };
+		07DFDB05164EC4EF004FB9CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB04164EC4EF004FB9CC /* main.m */; };
+		07DFDB09164EC4EF004FB9CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB08164EC4EF004FB9CC /* AppDelegate.m */; };
+		07DFDB0B164EC4EF004FB9CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB0A164EC4EF004FB9CC /* Default.png */; };
+		07DFDB0D164EC4EF004FB9CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB0C164EC4EF004FB9CC /* Default@2x.png */; };
+		07DFDB0F164EC4EF004FB9CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB0E164EC4EF004FB9CC /* Default-568h@2x.png */; };
+		07DFDB12164EC4EF004FB9CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */; };
+		07DFDB15164EC4EF004FB9CC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB14164EC4EF004FB9CC /* FirstViewController.m */; };
+		07DFDB17164EC4EF004FB9CC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB16164EC4EF004FB9CC /* first.png */; };
+		07DFDB19164EC4EF004FB9CC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB18164EC4EF004FB9CC /* first@2x.png */; };
+		07DFDB1C164EC4EF004FB9CC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */; };
+		07DFDB1E164EC4EF004FB9CC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB1D164EC4EF004FB9CC /* second.png */; };
+		07DFDB20164EC4EF004FB9CC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB1F164EC4EF004FB9CC /* second@2x.png */; };
+		07DFDB28164EC4EF004FB9CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDB27164EC4EF004FB9CC /* SenTestingKit.framework */; };
+		07DFDB29164EC4EF004FB9CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAF8164EC4EF004FB9CC /* UIKit.framework */; };
+		07DFDB2A164EC4EF004FB9CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFA164EC4EF004FB9CC /* Foundation.framework */; };
+		07DFDB32164EC4EF004FB9CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB30164EC4EF004FB9CC /* InfoPlist.strings */; };
+		07DFDB35164EC4EF004FB9CC /* BroNitedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB34164EC4EF004FB9CC /* BroNitedTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07DFDB2B164EC4EF004FB9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07DFDAEB164EC4EF004FB9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07DFDAF3164EC4EF004FB9CC;
+			remoteInfo = BroNited;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DFDAF4164EC4EF004FB9CC /* BroNited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroNited.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DFDAF8164EC4EF004FB9CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07DFDAFA164EC4EF004FB9CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07DFDAFC164EC4EF004FB9CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07DFDB00164EC4EF004FB9CC /* BroNited-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BroNited-Info.plist"; sourceTree = "<group>"; };
+		07DFDB02164EC4EF004FB9CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DFDB04164EC4EF004FB9CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07DFDB06164EC4EF004FB9CC /* BroNited-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BroNited-Prefix.pch"; sourceTree = "<group>"; };
+		07DFDB07164EC4EF004FB9CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07DFDB08164EC4EF004FB9CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07DFDB0A164EC4EF004FB9CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		07DFDB0C164EC4EF004FB9CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		07DFDB0E164EC4EF004FB9CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		07DFDB11164EC4EF004FB9CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07DFDB13164EC4EF004FB9CC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		07DFDB14164EC4EF004FB9CC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		07DFDB16164EC4EF004FB9CC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		07DFDB18164EC4EF004FB9CC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		07DFDB1A164EC4EF004FB9CC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		07DFDB1D164EC4EF004FB9CC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		07DFDB1F164EC4EF004FB9CC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		07DFDB26164EC4EF004FB9CC /* BroNitedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroNitedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DFDB27164EC4EF004FB9CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07DFDB2F164EC4EF004FB9CC /* BroNitedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BroNitedTests-Info.plist"; sourceTree = "<group>"; };
+		07DFDB31164EC4EF004FB9CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07DFDB33164EC4EF004FB9CC /* BroNitedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroNitedTests.h; sourceTree = "<group>"; };
+		07DFDB34164EC4EF004FB9CC /* BroNitedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroNitedTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07DFDAF1164EC4EF004FB9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDAF9164EC4EF004FB9CC /* UIKit.framework in Frameworks */,
+				07DFDAFB164EC4EF004FB9CC /* Foundation.framework in Frameworks */,
+				07DFDAFD164EC4EF004FB9CC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DFDB22164EC4EF004FB9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDB28164EC4EF004FB9CC /* SenTestingKit.framework in Frameworks */,
+				07DFDB29164EC4EF004FB9CC /* UIKit.framework in Frameworks */,
+				07DFDB2A164EC4EF004FB9CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DFDAE9164EC4EF004FB9CC = {
+			isa = PBXGroup;
+			children = (
+				07DFDAFE164EC4EF004FB9CC /* BroNited */,
+				07DFDB2D164EC4EF004FB9CC /* BroNitedTests */,
+				07DFDAF7164EC4EF004FB9CC /* Frameworks */,
+				07DFDAF5164EC4EF004FB9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07DFDAF5164EC4EF004FB9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDAF4164EC4EF004FB9CC /* BroNited.app */,
+				07DFDB26164EC4EF004FB9CC /* BroNitedTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07DFDAF7164EC4EF004FB9CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDAF8164EC4EF004FB9CC /* UIKit.framework */,
+				07DFDAFA164EC4EF004FB9CC /* Foundation.framework */,
+				07DFDAFC164EC4EF004FB9CC /* CoreGraphics.framework */,
+				07DFDB27164EC4EF004FB9CC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07DFDAFE164EC4EF004FB9CC /* BroNited */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDB07164EC4EF004FB9CC /* AppDelegate.h */,
+				07DFDB08164EC4EF004FB9CC /* AppDelegate.m */,
+				07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */,
+				07DFDB13164EC4EF004FB9CC /* FirstViewController.h */,
+				07DFDB14164EC4EF004FB9CC /* FirstViewController.m */,
+				07DFDB16164EC4EF004FB9CC /* first.png */,
+				07DFDB18164EC4EF004FB9CC /* first@2x.png */,
+				07DFDB1A164EC4EF004FB9CC /* SecondViewController.h */,
+				07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */,
+				07DFDB1D164EC4EF004FB9CC /* second.png */,
+				07DFDB1F164EC4EF004FB9CC /* second@2x.png */,
+				07DFDAFF164EC4EF004FB9CC /* Supporting Files */,
+			);
+			path = BroNited;
+			sourceTree = "<group>";
+		};
+		07DFDAFF164EC4EF004FB9CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDB00164EC4EF004FB9CC /* BroNited-Info.plist */,
+				07DFDB01164EC4EF004FB9CC /* InfoPlist.strings */,
+				07DFDB04164EC4EF004FB9CC /* main.m */,
+				07DFDB06164EC4EF004FB9CC /* BroNited-Prefix.pch */,
+				07DFDB0A164EC4EF004FB9CC /* Default.png */,
+				07DFDB0C164EC4EF004FB9CC /* Default@2x.png */,
+				07DFDB0E164EC4EF004FB9CC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07DFDB2D164EC4EF004FB9CC /* BroNitedTests */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDB33164EC4EF004FB9CC /* BroNitedTests.h */,
+				07DFDB34164EC4EF004FB9CC /* BroNitedTests.m */,
+				07DFDB2E164EC4EF004FB9CC /* Supporting Files */,
+			);
+			path = BroNitedTests;
+			sourceTree = "<group>";
+		};
+		07DFDB2E164EC4EF004FB9CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07DFDB2F164EC4EF004FB9CC /* BroNitedTests-Info.plist */,
+				07DFDB30164EC4EF004FB9CC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07DFDAF3164EC4EF004FB9CC /* BroNited */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DFDB38164EC4EF004FB9CC /* Build configuration list for PBXNativeTarget "BroNited" */;
+			buildPhases = (
+				07DFDAF0164EC4EF004FB9CC /* Sources */,
+				07DFDAF1164EC4EF004FB9CC /* Frameworks */,
+				07DFDAF2164EC4EF004FB9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroNited;
+			productName = BroNited;
+			productReference = 07DFDAF4164EC4EF004FB9CC /* BroNited.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07DFDB25164EC4EF004FB9CC /* BroNitedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07DFDB3B164EC4EF004FB9CC /* Build configuration list for PBXNativeTarget "BroNitedTests" */;
+			buildPhases = (
+				07DFDB21164EC4EF004FB9CC /* Sources */,
+				07DFDB22164EC4EF004FB9CC /* Frameworks */,
+				07DFDB23164EC4EF004FB9CC /* Resources */,
+				07DFDB24164EC4EF004FB9CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07DFDB2C164EC4EF004FB9CC /* PBXTargetDependency */,
+			);
+			name = BroNitedTests;
+			productName = BroNitedTests;
+			productReference = 07DFDB26164EC4EF004FB9CC /* BroNitedTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07DFDAEB164EC4EF004FB9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Sandalsoft;
+			};
+			buildConfigurationList = 07DFDAEE164EC4EF004FB9CC /* Build configuration list for PBXProject "BroNited" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07DFDAE9164EC4EF004FB9CC;
+			productRefGroup = 07DFDAF5164EC4EF004FB9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07DFDAF3164EC4EF004FB9CC /* BroNited */,
+				07DFDB25164EC4EF004FB9CC /* BroNitedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07DFDAF2164EC4EF004FB9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDB03164EC4EF004FB9CC /* InfoPlist.strings in Resources */,
+				07DFDB0B164EC4EF004FB9CC /* Default.png in Resources */,
+				07DFDB0D164EC4EF004FB9CC /* Default@2x.png in Resources */,
+				07DFDB0F164EC4EF004FB9CC /* Default-568h@2x.png in Resources */,
+				07DFDB12164EC4EF004FB9CC /* MainStoryboard.storyboard in Resources */,
+				07DFDB17164EC4EF004FB9CC /* first.png in Resources */,
+				07DFDB19164EC4EF004FB9CC /* first@2x.png in Resources */,
+				07DFDB1E164EC4EF004FB9CC /* second.png in Resources */,
+				07DFDB20164EC4EF004FB9CC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DFDB23164EC4EF004FB9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDB32164EC4EF004FB9CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DFDB24164EC4EF004FB9CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07DFDAF0164EC4EF004FB9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDB05164EC4EF004FB9CC /* main.m in Sources */,
+				07DFDB09164EC4EF004FB9CC /* AppDelegate.m in Sources */,
+				07DFDB15164EC4EF004FB9CC /* FirstViewController.m in Sources */,
+				07DFDB1C164EC4EF004FB9CC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07DFDB21164EC4EF004FB9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFDB35164EC4EF004FB9CC /* BroNitedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07DFDB2C164EC4EF004FB9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07DFDAF3164EC4EF004FB9CC /* BroNited */;
+			targetProxy = 07DFDB2B164EC4EF004FB9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07DFDB01164EC4EF004FB9CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DFDB02164EC4EF004FB9CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DFDB11164EC4EF004FB9CC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		07DFDB30164EC4EF004FB9CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DFDB31164EC4EF004FB9CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07DFDB36164EC4EF004FB9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07DFDB37164EC4EF004FB9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07DFDB39164EC4EF004FB9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
+				INFOPLIST_FILE = "BroNited/BroNited-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07DFDB3A164EC4EF004FB9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
+				INFOPLIST_FILE = "BroNited/BroNited-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07DFDB3C164EC4EF004FB9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BroNited.app/BroNited";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
+				INFOPLIST_FILE = "BroNitedTests/BroNitedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07DFDB3D164EC4EF004FB9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BroNited.app/BroNited";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
+				INFOPLIST_FILE = "BroNitedTests/BroNitedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07DFDAEE164EC4EF004FB9CC /* Build configuration list for PBXProject "BroNited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DFDB36164EC4EF004FB9CC /* Debug */,
+				07DFDB37164EC4EF004FB9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07DFDB38164EC4EF004FB9CC /* Build configuration list for PBXNativeTarget "BroNited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DFDB39164EC4EF004FB9CC /* Debug */,
+				07DFDB3A164EC4EF004FB9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07DFDB3B164EC4EF004FB9CC /* Build configuration list for PBXNativeTarget "BroNitedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07DFDB3C164EC4EF004FB9CC /* Debug */,
+				07DFDB3D164EC4EF004FB9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07DFDAEB164EC4EF004FB9CC /* Project object */;
+}
