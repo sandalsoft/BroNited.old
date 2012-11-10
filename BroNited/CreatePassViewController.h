@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CreatePassViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *selectImageButton;
 
+@property (retain, nonatomic) UIImagePickerController *imgPicker;
 @end

@@ -26,6 +26,7 @@
 		07DFDB43164EC7F7004FB9CC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */; };
 		07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */; };
 		07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */; };
+		07DFDB4F164ECA6C004FB9CC /* Pass.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB4E164ECA6C004FB9CC /* Pass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentPassViewController.m; sourceTree = "<group>"; };
 		07DFDB4A164EC88A004FB9CC /* PassHistoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassHistoryCollectionViewController.h; sourceTree = "<group>"; };
 		07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassHistoryCollectionViewController.m; sourceTree = "<group>"; };
+		07DFDB4D164ECA6C004FB9CC /* Pass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pass.h; sourceTree = "<group>"; };
+		07DFDB4E164ECA6C004FB9CC /* Pass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,14 +132,16 @@
 				07DFDB07164EC4EF004FB9CC /* AppDelegate.h */,
 				07DFDB08164EC4EF004FB9CC /* AppDelegate.m */,
 				07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */,
+				07DFDB4D164ECA6C004FB9CC /* Pass.h */,
+				07DFDB4E164ECA6C004FB9CC /* Pass.m */,
 				07DFDB3E164EC7F0004FB9CC /* CreatePassViewController.h */,
 				07DFDB3F164EC7F0004FB9CC /* CreatePassViewController.m */,
-				07DFDB41164EC7F7004FB9CC /* SettingsViewController.h */,
-				07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */,
 				07DFDB44164EC804004FB9CC /* CurrentPassViewController.h */,
 				07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */,
 				07DFDB4A164EC88A004FB9CC /* PassHistoryCollectionViewController.h */,
 				07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */,
+				07DFDB41164EC7F7004FB9CC /* SettingsViewController.h */,
+				07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */,
 				07DFDAFF164EC4EF004FB9CC /* Supporting Files */,
 			);
 			path = BroNited;
@@ -291,6 +296,7 @@
 				07DFDB43164EC7F7004FB9CC /* SettingsViewController.m in Sources */,
 				07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */,
 				07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */,
+				07DFDB4F164ECA6C004FB9CC /* Pass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
