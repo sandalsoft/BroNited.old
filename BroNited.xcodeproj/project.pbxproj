@@ -17,17 +17,15 @@
 		07DFDB0D164EC4EF004FB9CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB0C164EC4EF004FB9CC /* Default@2x.png */; };
 		07DFDB0F164EC4EF004FB9CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB0E164EC4EF004FB9CC /* Default-568h@2x.png */; };
 		07DFDB12164EC4EF004FB9CC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */; };
-		07DFDB15164EC4EF004FB9CC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB14164EC4EF004FB9CC /* FirstViewController.m */; };
-		07DFDB17164EC4EF004FB9CC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB16164EC4EF004FB9CC /* first.png */; };
-		07DFDB19164EC4EF004FB9CC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB18164EC4EF004FB9CC /* first@2x.png */; };
-		07DFDB1C164EC4EF004FB9CC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */; };
-		07DFDB1E164EC4EF004FB9CC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB1D164EC4EF004FB9CC /* second.png */; };
-		07DFDB20164EC4EF004FB9CC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB1F164EC4EF004FB9CC /* second@2x.png */; };
 		07DFDB28164EC4EF004FB9CC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDB27164EC4EF004FB9CC /* SenTestingKit.framework */; };
 		07DFDB29164EC4EF004FB9CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAF8164EC4EF004FB9CC /* UIKit.framework */; };
 		07DFDB2A164EC4EF004FB9CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFA164EC4EF004FB9CC /* Foundation.framework */; };
 		07DFDB32164EC4EF004FB9CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DFDB30164EC4EF004FB9CC /* InfoPlist.strings */; };
 		07DFDB35164EC4EF004FB9CC /* BroNitedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB34164EC4EF004FB9CC /* BroNitedTests.m */; };
+		07DFDB40164EC7F0004FB9CC /* CreatePassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB3F164EC7F0004FB9CC /* CreatePassViewController.m */; };
+		07DFDB43164EC7F7004FB9CC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */; };
+		07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */; };
+		07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,20 +53,20 @@
 		07DFDB0C164EC4EF004FB9CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		07DFDB0E164EC4EF004FB9CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		07DFDB11164EC4EF004FB9CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		07DFDB13164EC4EF004FB9CC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		07DFDB14164EC4EF004FB9CC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		07DFDB16164EC4EF004FB9CC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		07DFDB18164EC4EF004FB9CC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		07DFDB1A164EC4EF004FB9CC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		07DFDB1D164EC4EF004FB9CC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		07DFDB1F164EC4EF004FB9CC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		07DFDB26164EC4EF004FB9CC /* BroNitedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroNitedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DFDB27164EC4EF004FB9CC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		07DFDB2F164EC4EF004FB9CC /* BroNitedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BroNitedTests-Info.plist"; sourceTree = "<group>"; };
 		07DFDB31164EC4EF004FB9CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07DFDB33164EC4EF004FB9CC /* BroNitedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroNitedTests.h; sourceTree = "<group>"; };
 		07DFDB34164EC4EF004FB9CC /* BroNitedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroNitedTests.m; sourceTree = "<group>"; };
+		07DFDB3E164EC7F0004FB9CC /* CreatePassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePassViewController.h; sourceTree = "<group>"; };
+		07DFDB3F164EC7F0004FB9CC /* CreatePassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePassViewController.m; sourceTree = "<group>"; };
+		07DFDB41164EC7F7004FB9CC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		07DFDB44164EC804004FB9CC /* CurrentPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentPassViewController.h; sourceTree = "<group>"; };
+		07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentPassViewController.m; sourceTree = "<group>"; };
+		07DFDB4A164EC88A004FB9CC /* PassHistoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassHistoryCollectionViewController.h; sourceTree = "<group>"; };
+		07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassHistoryCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +129,14 @@
 				07DFDB07164EC4EF004FB9CC /* AppDelegate.h */,
 				07DFDB08164EC4EF004FB9CC /* AppDelegate.m */,
 				07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */,
-				07DFDB13164EC4EF004FB9CC /* FirstViewController.h */,
-				07DFDB14164EC4EF004FB9CC /* FirstViewController.m */,
-				07DFDB16164EC4EF004FB9CC /* first.png */,
-				07DFDB18164EC4EF004FB9CC /* first@2x.png */,
-				07DFDB1A164EC4EF004FB9CC /* SecondViewController.h */,
-				07DFDB1B164EC4EF004FB9CC /* SecondViewController.m */,
-				07DFDB1D164EC4EF004FB9CC /* second.png */,
-				07DFDB1F164EC4EF004FB9CC /* second@2x.png */,
+				07DFDB3E164EC7F0004FB9CC /* CreatePassViewController.h */,
+				07DFDB3F164EC7F0004FB9CC /* CreatePassViewController.m */,
+				07DFDB41164EC7F7004FB9CC /* SettingsViewController.h */,
+				07DFDB42164EC7F7004FB9CC /* SettingsViewController.m */,
+				07DFDB44164EC804004FB9CC /* CurrentPassViewController.h */,
+				07DFDB45164EC804004FB9CC /* CurrentPassViewController.m */,
+				07DFDB4A164EC88A004FB9CC /* PassHistoryCollectionViewController.h */,
+				07DFDB4B164EC88A004FB9CC /* PassHistoryCollectionViewController.m */,
 				07DFDAFF164EC4EF004FB9CC /* Supporting Files */,
 			);
 			path = BroNited;
@@ -253,10 +251,6 @@
 				07DFDB0D164EC4EF004FB9CC /* Default@2x.png in Resources */,
 				07DFDB0F164EC4EF004FB9CC /* Default-568h@2x.png in Resources */,
 				07DFDB12164EC4EF004FB9CC /* MainStoryboard.storyboard in Resources */,
-				07DFDB17164EC4EF004FB9CC /* first.png in Resources */,
-				07DFDB19164EC4EF004FB9CC /* first@2x.png in Resources */,
-				07DFDB1E164EC4EF004FB9CC /* second.png in Resources */,
-				07DFDB20164EC4EF004FB9CC /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +287,10 @@
 			files = (
 				07DFDB05164EC4EF004FB9CC /* main.m in Sources */,
 				07DFDB09164EC4EF004FB9CC /* AppDelegate.m in Sources */,
-				07DFDB15164EC4EF004FB9CC /* FirstViewController.m in Sources */,
-				07DFDB1C164EC4EF004FB9CC /* SecondViewController.m in Sources */,
+				07DFDB40164EC7F0004FB9CC /* CreatePassViewController.m in Sources */,
+				07DFDB43164EC7F7004FB9CC /* SettingsViewController.m in Sources */,
+				07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */,
+				07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
