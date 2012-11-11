@@ -8,7 +8,8 @@
 
 #import "Pass.h"
 
-@interface unitedPassbookPass : Pass
+
+@interface UnitedPassbookPass : Pass
 
 @property (weak, nonatomic) UIImage *passImage;
 @property (weak, nonatomic) UIImage *qrImage;

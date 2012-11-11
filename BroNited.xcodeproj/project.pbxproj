@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077E0E31164F20AA00D36B77 /* unitedPassbookPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */; };
+		077E0E31164F20AA00D36B77 /* UnitedPassbookPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E30164F20AA00D36B77 /* UnitedPassbookPass.m */; };
 		077E0E36164F28EF00D36B77 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E35164F28EF00D36B77 /* Utility.m */; };
 		077E0E3A164F29B100D36B77 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E39164F29B100D36B77 /* Reachability.m */; };
 		077E0E3C164F2B5B00D36B77 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077E0E3B164F2B5B00D36B77 /* AssetsLibrary.framework */; };
@@ -45,8 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		077E0E2F164F20AA00D36B77 /* unitedPassbookPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unitedPassbookPass.h; sourceTree = "<group>"; };
-		077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unitedPassbookPass.m; sourceTree = "<group>"; };
+		077E0E2F164F20AA00D36B77 /* UnitedPassbookPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitedPassbookPass.h; sourceTree = "<group>"; };
+		077E0E30164F20AA00D36B77 /* UnitedPassbookPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitedPassbookPass.m; sourceTree = "<group>"; };
 		077E0E34164F28EF00D36B77 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		077E0E35164F28EF00D36B77 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		077E0E38164F29B100D36B77 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 		077E0E33164F245700D36B77 /* Pass Types */ = {
 			isa = PBXGroup;
 			children = (
-				077E0E2F164F20AA00D36B77 /* unitedPassbookPass.h */,
-				077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */,
+				077E0E2F164F20AA00D36B77 /* UnitedPassbookPass.h */,
+				077E0E30164F20AA00D36B77 /* UnitedPassbookPass.m */,
 			);
 			name = "Pass Types";
 			sourceTree = "<group>";
@@ -336,7 +336,7 @@
 				07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */,
 				07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */,
 				07DFDB4F164ECA6C004FB9CC /* Pass.m in Sources */,
-				077E0E31164F20AA00D36B77 /* unitedPassbookPass.m in Sources */,
+				077E0E31164F20AA00D36B77 /* UnitedPassbookPass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

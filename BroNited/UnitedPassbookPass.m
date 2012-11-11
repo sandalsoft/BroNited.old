@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Sandalsoft. All rights reserved.
 //
 
-#import "unitedPassbookPass.h"
+#import "UnitedPassbookPass.h"
 
-@implementation unitedPassbookPass
+@implementation UnitedPassbookPass
 
 
 @end
