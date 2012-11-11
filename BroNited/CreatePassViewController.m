@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,12 +26,13 @@
 
 
 - (IBAction)selectPassImagePressed:(id)sender {
+
     self.imgPicker = [[UIImagePickerController alloc] init];
-//    self.imgPicker.delegate = self;
+        self.imgPicker.delegate = self;
     self.imgPicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     [self presentViewController:self.imgPicker animated:YES completion:nil];
-}
 
+}
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     UIImage *boardingPass = [info objectForKey:UIImagePickerControllerOriginalImage];

@@ -17,7 +17,7 @@
 
 
 +(PassType)determinePassType:(UIImage *)image {
-    
+    NSLog(@"determining pass type");
     ALAssetsLibrary *al = [[ALAssetsLibrary alloc] init];
 //    __block UIImage *passImage;
     [al enumerateGroupsWithTypes:ALAssetsGroupSavedPhotos usingBlock:^(ALAssetsGroup *group, BOOL *stop)  {
