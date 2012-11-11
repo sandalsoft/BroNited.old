@@ -12,4 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *selectImageButton;
 
 @property (retain, nonatomic) UIImagePickerController *imgPicker;
+
+- (void) determinePassbookType:(UIImage *)image;
 @end

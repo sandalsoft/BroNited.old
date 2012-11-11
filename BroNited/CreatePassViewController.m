@@ -30,19 +30,36 @@
 //    self.imgPicker.delegate = self;
     self.imgPicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     [self presentViewController:self.imgPicker animated:YES completion:nil];
-    
-
 }
 
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    [self dismissViewControllerAnimated:YES completion:nil];
-    
     UIImage *boardingPass = [info objectForKey:UIImagePickerControllerOriginalImage];
-    
+    [self determinePassbookType:boardingPass];
+}
+
+
+- (void)determinePassbookType:(UIImage *)boardingPass {
+    switch ([Pass determinePassType:boardingPass]) {
+        case kUnitedPassbook:
+            NSLog(@"united");
+            break;
+        case kAlaskaAir:
+            NSLog(@"Alaska");
+            break;
+        case kAmerican:
+            NSLog(@"american");
+            break;
+        case kDelta:
+            NSLog(@"delta");
+            break;
+        default:
+            break;
+    }
 }
 
 - (IBAction)autoCreatePassPressed:(id)sender {
+    
 }
 
 

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077E0E31164F20AA00D36B77 /* unitedPassbookPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */; };
+		077E0E36164F28EF00D36B77 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E35164F28EF00D36B77 /* Utility.m */; };
+		077E0E3A164F29B100D36B77 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E0E39164F29B100D36B77 /* Reachability.m */; };
+		077E0E3C164F2B5B00D36B77 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077E0E3B164F2B5B00D36B77 /* AssetsLibrary.framework */; };
+		077E0E3E164F2B7300D36B77 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077E0E3D164F2B7300D36B77 /* SystemConfiguration.framework */; };
 		07DFDAF9164EC4EF004FB9CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAF8164EC4EF004FB9CC /* UIKit.framework */; };
 		07DFDAFB164EC4EF004FB9CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFA164EC4EF004FB9CC /* Foundation.framework */; };
 		07DFDAFD164EC4EF004FB9CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFDAFC164EC4EF004FB9CC /* CoreGraphics.framework */; };
@@ -40,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077E0E2F164F20AA00D36B77 /* unitedPassbookPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unitedPassbookPass.h; sourceTree = "<group>"; };
+		077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = unitedPassbookPass.m; sourceTree = "<group>"; };
+		077E0E34164F28EF00D36B77 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		077E0E35164F28EF00D36B77 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		077E0E38164F29B100D36B77 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		077E0E39164F29B100D36B77 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		077E0E3B164F2B5B00D36B77 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		077E0E3D164F2B7300D36B77 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		07DFDAF4164EC4EF004FB9CC /* BroNited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroNited.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DFDAF8164EC4EF004FB9CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07DFDAFA164EC4EF004FB9CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077E0E3E164F2B7300D36B77 /* SystemConfiguration.framework in Frameworks */,
+				077E0E3C164F2B5B00D36B77 /* AssetsLibrary.framework in Frameworks */,
 				07DFDAF9164EC4EF004FB9CC /* UIKit.framework in Frameworks */,
 				07DFDAFB164EC4EF004FB9CC /* Foundation.framework in Frameworks */,
 				07DFDAFD164EC4EF004FB9CC /* CoreGraphics.framework in Frameworks */,
@@ -96,6 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077E0E33164F245700D36B77 /* Pass Types */ = {
+			isa = PBXGroup;
+			children = (
+				077E0E2F164F20AA00D36B77 /* unitedPassbookPass.h */,
+				077E0E30164F20AA00D36B77 /* unitedPassbookPass.m */,
+			);
+			name = "Pass Types";
+			sourceTree = "<group>";
+		};
+		077E0E37164F290300D36B77 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				077E0E38164F29B100D36B77 /* Reachability.h */,
+				077E0E39164F29B100D36B77 /* Reachability.m */,
+				077E0E34164F28EF00D36B77 /* Utility.h */,
+				077E0E35164F28EF00D36B77 /* Utility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		07DFDAE9164EC4EF004FB9CC = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +153,8 @@
 		07DFDAF7164EC4EF004FB9CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				077E0E3D164F2B7300D36B77 /* SystemConfiguration.framework */,
+				077E0E3B164F2B5B00D36B77 /* AssetsLibrary.framework */,
 				07DFDAF8164EC4EF004FB9CC /* UIKit.framework */,
 				07DFDAFA164EC4EF004FB9CC /* Foundation.framework */,
 				07DFDAFC164EC4EF004FB9CC /* CoreGraphics.framework */,
@@ -129,11 +166,13 @@
 		07DFDAFE164EC4EF004FB9CC /* BroNited */ = {
 			isa = PBXGroup;
 			children = (
+				077E0E37164F290300D36B77 /* Utility */,
 				07DFDB07164EC4EF004FB9CC /* AppDelegate.h */,
 				07DFDB08164EC4EF004FB9CC /* AppDelegate.m */,
 				07DFDB10164EC4EF004FB9CC /* MainStoryboard.storyboard */,
 				07DFDB4D164ECA6C004FB9CC /* Pass.h */,
 				07DFDB4E164ECA6C004FB9CC /* Pass.m */,
+				077E0E33164F245700D36B77 /* Pass Types */,
 				07DFDB3E164EC7F0004FB9CC /* CreatePassViewController.h */,
 				07DFDB3F164EC7F0004FB9CC /* CreatePassViewController.m */,
 				07DFDB44164EC804004FB9CC /* CurrentPassViewController.h */,
@@ -297,6 +336,7 @@
 				07DFDB46164EC804004FB9CC /* CurrentPassViewController.m in Sources */,
 				07DFDB4C164EC88A004FB9CC /* PassHistoryCollectionViewController.m in Sources */,
 				07DFDB4F164ECA6C004FB9CC /* Pass.m in Sources */,
+				077E0E31164F20AA00D36B77 /* unitedPassbookPass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DFDB35164EC4EF004FB9CC /* BroNitedTests.m in Sources */,
+				077E0E36164F28EF00D36B77 /* Utility.m in Sources */,
+				077E0E3A164F29B100D36B77 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +444,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
 				INFOPLIST_FILE = "BroNited/BroNited-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,6 +459,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BroNited/BroNited-Prefix.pch";
 				INFOPLIST_FILE = "BroNited/BroNited-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/usr/lib/system\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +521,7 @@
 				07DFDB3A164EC4EF004FB9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07DFDB3B164EC4EF004FB9CC /* Build configuration list for PBXNativeTarget "BroNitedTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +530,7 @@
 				07DFDB3D164EC4EF004FB9CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
