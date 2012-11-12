@@ -60,7 +60,20 @@
 }
 
 - (IBAction)autoCreatePassPressed:(id)sender {
-    
+    ALAssetsLibrary *al = [[ALAssetsLibrary alloc] init];
+    //    __block UIImage *passImage;
+    [al enumerateGroupsWithTypes:ALAssetsGroupSavedPhotos usingBlock:^(ALAssetsGroup *group, BOOL *stop)  {
+        [group enumerateAssetsUsingBlock:^(ALAsset *asset, NSUInteger index, BOOL *stop) {
+            UIImage *image = [Pass imageForAsset:asset];
+            NSLog(@"%@",image);
+            
+        }];
+    }
+                    failureBlock:^(NSError *error)  {
+                        // User did not allow access to library
+                        // .. handle error
+                    }];
+
 }
 
 
